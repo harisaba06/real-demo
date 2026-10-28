@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101820">
+
+  <title>BuildNest | Construction & Real Estate</title>
+  <meta name="description" content="BuildNest construction and real estate demo website for homes, properties and construction services in Kanchipuram.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <nav class="navbar container">
+    <a href="#home" class="logo">
+      <span class="logo-icon">B</span>
+      <span>BUILD<span class="gold">NEST</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+      ☰
+    </button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#properties">Properties</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-cta">Let's Talk ↗</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+  <div class="hero-overlay"></div>
+
+  <div class="container hero-content">
+    <span class="eyebrow">CONSTRUCTION · REAL ESTATE · DESIGN</span>
+
+    <h1>Building Dreams.<br><span>Creating Futures.</span></h1>
+
+    <p>
+      From thoughtfully designed homes to valuable properties,
+      we help turn your vision into something real.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#properties" class="btn btn-gold">Explore Properties ↗</a>
+      <a href="#services" class="btn btn-outline">Our Services</a>
+    </div>
+
+    <div class="hero-stats">
+      <div>
+        <strong>Quality</strong>
+        <span>First approach</span>
+      </div>
+      <div>
+        <strong>Trusted</strong>
+        <span>Client relationships</span>
+      </div>
+      <div>
+        <strong>Local</strong>
+        <span>Kanchipuram demo</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="intro section-padding" id="about">
+  <div class="container intro-grid">
+    <div class="intro-image">
+      <img
+        src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85"
+        alt="Modern residential home design"
+      >
+      <div class="image-label">
+        <span>DESIGNED FOR LIVING</span>
+        <strong>Spaces that feel like home.</strong>
+      </div>
+    </div>
+
+    <div class="intro-content">
+      <span class="eyebrow dark-eyebrow">WELCOME TO BUILDNEST</span>
+      <h2>Good spaces.<br><span>Better living.</span></h2>
+
+      <p>
+        Finding the right property or building your dream home should
+        feel simple. Our demo business brings construction services and
+        property discovery together in one convenient place.
+      </p>
+
+      <p>
+        Explore our sample listings, discover our services and contact
+        us to discuss your next project.
+      </p>
+
+      <a href="#contact" class="text-link">Talk about your project ↗</a>
+    </div>
+  </div>
+</section>
+
+<section class="services section-padding" id="services">
+  <div class="container">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow dark-eyebrow">WHAT WE DO</span>
+        <h2>Everything you need.<br><span>One trusted team.</span></h2>
+      </div>
+
+      <p>
+        Practical solutions for your property journey, from the first
+        idea to the final details.
+      </p>
+    </div>
+
+    <div class="service-grid">
+      <article class="service-card">
+        <span class="service-number">01</span>
+        <div class="service-icon">⌂</div>
+        <h3>Home Construction</h3>
+        <p>
+          Residential construction planning and support tailored to
+          your needs and budget.
+        </p>
+        <a href="#contact" class="text-link">Discuss a project ↗</a>
+      </article>
+
+      <article class="service-card featured-service">
+        <span class="service-number">02</span>
+        <div class="service-icon">◇</div>
+        <h3>Property Sales</h3>
+        <p>
+          Explore sample residential properties and find an option
+          that suits your requirements.
+        </p>
+        <a href="#properties" class="text-link">View properties ↗</a>
+      </article>
+
+      <article class="service-card">
+        <span class="service-number">03</span>
+        <div class="service-icon">▦</div>
+        <h3>Architectural Design</h3>
+        <p>
+          Thoughtful design concepts to help create comfortable,
+          functional and attractive spaces.
+        </p>
+        <a href="#contact" class="text-link">Start planning ↗</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="properties section-padding" id="properties">
+  <div class="container">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow dark-eyebrow">FEATURED COLLECTION</span>
+        <h2>Find a place<br><span>to call your own.</span></h2>
+      </div>
+
+      <p>
+        Browse our illustrative property listings. Sample prices and
+        availability must be confirmed before any real-world use.
+      </p>
+    </div>
+
+    <div class="property-filters">
+      <button class="filter-btn active" data-filter="all">All Properties</button>
+      <button class="filter-btn" data-filter="house">Houses</button>
+      <button class="filter-btn" data-filter="villa">Villas</button>
+      <button class="filter-btn" data-filter="land">Land</button>
+    </div>
+
+    <div class="property-grid">
+
+      <article class="property-card" data-category="house">
+        <div class="property-image">
+          <img
+            src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=85"
+            alt="Contemporary house exterior"
+            loading="lazy"
+          >
+          <span class="property-tag">SAMPLE LISTING</span>
+        </div>
+
+        <div class="property-info">
+          <span class="property-location">Kanchipuram · Demo location</span>
+          <h3>Contemporary Family Home</h3>
+
+          <div class="property-details">
+            <span>3 Bedrooms</span>
+            <span>2 Bathrooms</span>
+            <span>Sample area</span>
+          </div>
+
+          <div class="property-bottom">
+            <div>
+              <small>Illustrative price</small>
+              <strong>₹65 Lakhs</strong>
+            </div>
+
+            <button class="property-enquire" data-property="Contemporary Family Home">
+              Enquire ↗
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="property-card" data-category="villa">
+        <div class="property-image">
+          <img
+            src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=85"
+            alt="Modern luxury villa"
+            loading="lazy"
+          >
+          <span class="property-tag">SAMPLE LISTING</span>
+        </div>
+
+        <div class="property-info">
+          <span class="property-location">Kanchipuram · Demo location</span>
+          <h3>Modern Garden Villa</h3>
+
+          <div class="property-details">
+            <span>4 Bedrooms</span>
+            <span>3 Bathrooms</span>
+            <span>Sample area</span>
+          </div>
+
+          <div class="property-bottom">
+            <div>
+              <small>Illustrative price</small>
+              <strong>₹95 Lakhs</strong>
+            </div>
+
+            <button class="property-enquire" data-property="Modern Garden Villa">
+              Enquire ↗
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="property-card" data-category="land">
+        <div class="property-image">
+          <img
+            src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=85"
+            alt="Open green land"
+            loading="lazy"
+          >
+          <span class="property-tag">SAMPLE LISTING</span>
+        </div>
+
+        <div class="property-info">
+          <span class="property-location">Kanchipuram · Demo location</span>
+          <h3>Residential Plot</h3>
+
+          <div class="property-details">
+            <span>Residential</span>
+            <span>Road access to verify</span>
+          </div>
+
+          <div class="property-bottom">
+            <div>
+              <small>Illustrative price</small>
+              <strong>₹18 Lakhs</strong>
+            </div>
+
+            <button class="property-enquire" data-property="Residential Plot">
+              Enquire ↗
+            </button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <p class="demo-note">
+      Demo notice: Property names, prices, locations, features and
+      availability shown here are illustrative, not verified listings.
+    </p>
+  </div>
+</section>
+
+<section class="process section-padding">
+  <div class="container">
+    <div class="section-heading centered-heading">
+      <span class="eyebrow dark-eyebrow">A SIMPLE PROCESS</span>
+      <h2>Your next step,<br><span>made easier.</span></h2>
+    </div>
+
+    <div class="process-grid">
+      <div class="process-step">
+        <span>01</span>
+        <h3>Tell Us Your Plan</h3>
+        <p>Share your budget, property needs or construction ideas.</p>
+      </div>
+
+      <div class="process-step">
+        <span>02</span>
+        <h3>Explore Your Options</h3>
+        <p>Discuss suitable possibilities and practical next steps.</p>
+      </div>
+
+      <div class="process-step">
+        <span>03</span>
+        <h3>Move Forward</h3>
+        <p>Connect with the team to discuss the next stage of your project.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact section-padding" id="contact">
+  <div class="container contact-grid">
+    <div>
+      <span class="eyebrow">LET'S BUILD SOMETHING</span>
+      <h2>Have a project<br>in mind?</h2>
+      <p>
+        Tell us what you're looking for. Contact our team to discuss
+        your construction or property requirements.
+      </p>
+    </div>
+
+    <div class="contact-panel">
+      <h3>Let's talk about your plans.</h3>
+      <p>Choose a contact option to get started.</p>
+
+      <a href="#" class="btn btn-gold btn-full" id="whatsappButton">
+        Chat on WhatsApp ↗
+      </a>
+
+      <a href="mailto:hello@example.com" class="contact-email" id="emailButton">
+        hello@example.com
+      </a>
+
+      <span class="contact-note">
+        Demo contact details — replace before publishing for a real client.
+      </span>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-content">
+    <a href="#home" class="logo footer-logo">
+      <span class="logo-icon">B</span>
+      <span>BUILD<span class="gold">NEST</span></span>
+    </a>
+
+    <p>Construction & Real Estate Website Demo · Kanchipuram</p>
+
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </div>
+
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> BuildNest Demo.</span>
+    <span>Designed for demonstration purposes.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
